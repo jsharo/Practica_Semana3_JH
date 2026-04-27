@@ -67,19 +67,25 @@ los datos se mantuvieron íntegros en TablePlus.
 
 ## 9. Resultados esperados
 Creación correcta de los contenedores y el volumen a utilizar. E integridad de los datos al eliminar el contenedor mediante el volumen.
+
 ## Configuración TablePlus
 <img src="./Configuracion_TablePlus.png" width="800" alt="Captura Configuración TablePlus">
 Se puede observar como se configuro la conexión de TablePlus con los contenedores creados.
+
+
 ## Creación Datos tablas
 <img src="./Creacion_Tablas.png" width="800" alt="Captura Creación Tablas">
 En esta imagen se muestra la creacion de tablas y datos para probar la persistencia de datos.
+
+
 ### Server_db1 (Contenedor sin volumen)
 <img src="./Contenedor_SinVolumen.png" width="800" alt="Captura Contenedor sin volumen">
-
 En esta imagen se puede ver el contenedor server_db1 que, despues de eliminarlo y volverlo a crear, 
 los datos que contenía fueron eliminados.
+
+
 ### Server_db2 (Contenedor con Volumen)
-<img src="./Nginxs2_Personal_JH.png" width="800" alt="Captura Servidor Personal">
+<img src="./Contenedor_Volumen.png" width="800" alt="Captura Contenedor Volumen">
 
 En esta imagen se puede ver el otro Contenedor, el cual despues de hacer el mimso proceso de eliminación, 
 se puede observar que los datos se mantuvieron gracias a que el columen los guardo.
